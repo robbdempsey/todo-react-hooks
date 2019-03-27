@@ -1,0 +1,44 @@
+.todo-item__container {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  width: 350px;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  height: 55px;
+  min-height: 55px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+
+.todo-item-name,
+.todo-item-complete,
+.todo-item-delete {
+  padding-top: 12px;
+}
+
+.todo-item-name {
+  font-size: 1.5em;
+  width: 100%;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.complete-icon:hover {
+  color: aquamarine;
+}
+
+.delete-icon:hover {
+  color: firebrick;
+}
+
+.delete-icon,
+.complete-icon {
+  transform: translateY(2px);
+  font-size: 1.5em;
+  color: #CCC;
+}
+
+.todo-item-completed {
+  color: forestgreen;
+}
