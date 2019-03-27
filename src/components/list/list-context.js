@@ -13,20 +13,6 @@ const loadState = () => {
 }
 
 export default function withContext (props) {
-  /*
-    load state from localStorage
-      if it doesnt exists create state with initialState shape
-    useReducer for todos
-    export provider as component to wrap the list
-
-  */ 
-  
-
-
-  // const persistedState = loadState()
-
-  console.log('withContext')
-  
   return (
     <ListProvider >
        {props.children}
