@@ -1,0 +1,22 @@
+.todo-form input {
+  width: 180px;
+  padding: 16px 12px;
+  font-size: 18px;
+  line-height: 26px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border: none;
+  border-bottom: 1px solid #9999;
+  transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.todo-list-filters {
+  font-size: .75em;
+  padding: 10px;
+  color: #CCC;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
